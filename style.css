@@ -1,0 +1,10 @@
+
+
+body{background: #fafafa; padding: 0; margin: 0;}
+#header {width: 960px; margin: 0 auto;}
+	#header .logo {width: 500px; float: left;}
+	#header .contacts {width: 250px; float: right;}
+#top_menu {width: 960px; background: #f3f3f3; margin: 0 auto; clear: both;}
+#middle {width: 960px; margin: 0 auto; min-height: 300px;}
+#footer {background: #757373;}
+	#footer .inner {width: 960px; margin: 0 auto; min-height: 100px;}
