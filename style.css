@@ -20,8 +20,14 @@ html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans C
 #middle {width: 960px; margin: 0 auto; min-height: 300px;}
 #middle .left_side{
 	float: left;
-	background: red;
 	width: 267px;
+}
+#middle .left_side .block h3{
+	background: #28c5e6;
+	color: white;
+}
+#middle .left_side .block ul{
+	background: #f3f3f3;
 }
 #middle .main {
 	background: green;
