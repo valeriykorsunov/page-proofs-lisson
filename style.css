@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-
-body{background: #fafafa; padding: 0; margin: 0;}
+html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans Condensed', sans-serif; font-size: 18px;}
 #header {width: 960px; margin: 0 auto;}
-	#header .logo {width: 500px; float: left;}
-	#header .contacts {width: 250px; float: right;}
+#header .logo {width: 500px; float: left;}
+	#header .contacts {margin-top: 10px;margin-right: 20px;text-align: right;width: 250px; float: right;}
+		#header .contacts a {color: #7e7e7e; text-decoration: none; font-weight: bold;}
+		#header .contacts .phone {font-size: 44px;}
+		#header .contacts .call-order {font-size: 25px;}
 #top_menu {width: 960px; background: #f3f3f3; margin: 0 auto; clear: both;}
 #middle {width: 960px; margin: 0 auto; min-height: 300px;}
 #footer {background: #757373;}
-	#footer .inner {width: 960px; margin: 0 auto; min-height: 100px;}
+#footer .inner {width: 960px; margin: 0 auto; min-height: 100px;}
