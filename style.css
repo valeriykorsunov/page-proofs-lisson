@@ -18,9 +18,9 @@ html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans C
 #middle .left_side{float: left; width: 267px;}
 #middle .left_side .block h3{
 	background: #28c5e6;
+	color: white;
 	padding: 10px 10px 10px;
 	margin: 0;
-	color: white;
 	text-align: center;
 }
 #middle .left_side .block ul{
@@ -41,9 +41,34 @@ html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans C
 	background: #28c5e6;
 	color: white;
 }
+
 #middle .main {
-	background: green;
 	margin-left: 296px;
+}
+#middle .main .quote{
+	background: #28c5e6;
+	color: white;
+	padding: 30px;
+}
+#middle .main .quote p{
+	margin: 0;
+}
+#middle .main .quote p.quote_text{
+	font-style: italic;
+	font-family: Sans;
+}
+#middle .main .quote p.quote_sign{
+	font-style: italic;
+	font-family: "Open Sans";
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: right;
+}
+#middle .main .content{
+	padding: 30px;
+}
+#middle .main .content h1{
+	font-weight: bold;
 }
 
 #footer {
