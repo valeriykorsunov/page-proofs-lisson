@@ -75,10 +75,10 @@ html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans C
 #middle .main .advantages .adv {display: inline-block; width: 32.8%; text-align: center;}
 #middle .main .advantages .adv div {background: #c3c0c0; line-height: 111px;}
 #middle .main .advantages .adv div img {vertical-align: middle;}
-#middle .main .advantages .adv h4 {text-align: center; color: #28c5e6}
+#middle .main .advantages .adv h4 {text-align: center; color: #28c5e6; font-weight: normal;}
 
-#footer {
-	background: #757373; 
-	clear: both;
-}
-#footer .inner {width: 960px; margin: 0 auto; min-height: 100px;}
+#footer {background: #757373; clear: both; color: white;}
+#footer .inner {width: 960px; margin: 0 auto; min-height: 100px; padding: 40px 30px;}
+#footer .inner .stroyteplo {float: left;}
+#footer .inner .unibix {float: right;}
+#footer .inner .unibix a {text-decoration: none; color: black;}
