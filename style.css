@@ -71,6 +71,12 @@ html, body{background: #fafafa; padding: 0; margin: 0; font-family: 'Open Sans C
 	font-weight: bold;
 }
 
+#middle .main .advantages h3 {background: #28c5e6; color: white; padding: 10px 30px 10px; margin: 0 0 25px;}
+#middle .main .advantages .adv {display: inline-block; width: 32.8%; text-align: center;}
+#middle .main .advantages .adv div {background: #c3c0c0; line-height: 111px;}
+#middle .main .advantages .adv div img {vertical-align: middle;}
+#middle .main .advantages .adv h4 {text-align: center; color: #28c5e6}
+
 #footer {
 	background: #757373; 
 	clear: both;
